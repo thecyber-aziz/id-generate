@@ -1,0 +1,200 @@
+/* 🔹 Form Gradient  GenerateQR.jsx */
+.gradient-form {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6); /* Blue */
+  backdrop-filter: blur(20px);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* 🔹 QR Preview Gradient */
+.gradient-preview {
+  background: linear-gradient(135deg, #581c87, #a855f7); /* Purple */
+  backdrop-filter: blur(20px);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* 🔹 Saved Users Wrapper Gradient */
+.gradient-saved {
+  background: linear-gradient(135deg, #0f766e, #14b8a6); /* Teal */
+  backdrop-filter: blur(20px);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* 🔹 Saved User Cards (rotating gradients) */
+.gradient-1 {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: white;
+}
+.gradient-2 {
+  background: linear-gradient(135deg, #0f766e, #14b8a6);
+  color: white;
+}
+.gradient-3 {
+  background: linear-gradient(135deg, #7c2d12, #f97316);
+  color: white;
+}
+.gradient-4 {
+  background: linear-gradient(135deg, #581c87, #a855f7);
+  color: white;
+}
+.gradient-5 {
+  background: linear-gradient(135deg, #3f6212, #84cc16);
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* ScanQR.jsx */
+
+/* Main gradient container (big boxes like Scanner + Scanned Users) */
+.gradient-box {
+  background: linear-gradient(135deg, #1e3a8a, #1c4bb2, #1e40af);
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(20px);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.gradient-boxx {
+  background: linear-gradient(135deg, #0a4c2e, #417e0b, #0d5f1c);
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(20px);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* Variants for user cards */
+.gradient-1 {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: white;
+}
+.gradient-2 {
+  background: linear-gradient(135deg, #0f766e, #14b8a6);
+  color: white;
+}
+.gradient-3 {
+  background: linear-gradient(135deg, #7c2d12, #f97316);
+  color: white;
+}
+.gradient-4 {
+  background: linear-gradient(135deg, #581c87, #a855f7);
+  color: white;
+}
+.gradient-5 {
+  background: linear-gradient(135deg, #3f6212, #84cc16);
+  color: white;
+}
+
+/* Modal gradient */
+.gradient-modal {
+  background: linear-gradient(135deg, #1e40af, #3b82f6, #0f172a);
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;
+}
+
+
+/* Modal buttons gradient */
+.btn-gradient-cancel {
+  background: linear-gradient(135deg, #9ca3af, #6b7280);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.btn-gradient-cancel:hover {
+  background: linear-gradient(135deg, #6b7280, #374151);
+}
+
+.btn-gradient-delete {
+  background: linear-gradient(135deg, #dc2626, #f87171);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.btn-gradient-delete:hover {
+  background: linear-gradient(135deg, #b91c1c, #ef4444);
+}
+
+
+
+
+
+
+
+
+
+
+/* SavedUsers Gradients */
+
+/* Search + Clear All container */
+.gradient-search {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb, #1e40af);
+  padding: 1rem;
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Each User Card - different gradient */
+.user-card-1 { background: linear-gradient(135deg, #facc15, #f59e0b, #d97706); color: white; }
+.user-card-2 { background: linear-gradient(135deg, #16a34a, #4ade80, #22c55e); color: white; }
+.user-card-3 { background: linear-gradient(135deg, #dc2626, #f87171, #b91c1c); color: white; }
+
+/* Modal gradient */
+.gradient-modal {
+  background: linear-gradient(135deg, #1e40af, #3b82f6, #0f172a);
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;
+}
+
+/* Modal Buttons */
+.btn-gradient-cancel {
+  background: linear-gradient(135deg, #9ca3af, #6b7280);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.btn-gradient-cancel:hover {
+  background: linear-gradient(135deg, #6b7280, #374151);
+}
+
+.btn-gradient-delete {
+  background: linear-gradient(135deg, #dc2626, #f87171);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.btn-gradient-delete:hover {
+  background: linear-gradient(135deg, #b91c1c, #ef4444);
+}
+
+
+

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-box {
+  background: linear-gradient(to right, black, #3b82f6, #1e40af);
+  background-color: rgba(0, 0, 0, 0.8); /* opacity effect */
+  backdrop-filter: blur(20px);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: white;
+}
